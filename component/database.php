@@ -2,11 +2,11 @@
 
 /* Mysql */	
 	
-    define ('DBHOST', 'localhost'); 
-    define ('DBPORT', '3306'); 
-    define ('DBNAME', 'mvc_site'); // Имя базы
-    define ('DBUSER', 'root'); // Пользователь
-    define ('DBPASS', ''); // Пароль
+    define ('DBHOST', 'ec2-54-217-243-228.eu-west-1.compute.amazonaws.com'); 
+    define ('DBPORT', '5432'); 
+    define ('DBNAME', 'postgresql-concentric-23555'); // Имя базы
+    define ('DBUSER', 'ubiulkxwgxblwg'); // Пользователь
+    define ('DBPASS', 'zl3okjnPk4zdhm2U9w6go1YNAY'); // Пароль
 	
 /* PHP DATA OBJECT ничего не трогай класс с документации */		
 
