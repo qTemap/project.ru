@@ -1,0 +1,35 @@
+body {
+	margin: auto 0px;
+	background-color: #DCF4F1;
+}
+
+.search {
+	margin: auto;
+	width: 1200px;
+	height: 25px;
+	background-color: #B1E7E0;
+	padding: 25px;
+	text-align: center;
+}
+
+input.url {
+	width: 600px;
+}
+
+.table table{
+	background-color: #B1E7E0;
+	margin: auto;
+	padding: 20px;
+}
+
+tr,td {
+	border: solid 1px;
+}
+
+.name {
+	margin: auto;
+	width: 1200px;
+	background-color: #B1E7E0;
+	padding: 25px;
+	text-align: center;
+}

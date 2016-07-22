@@ -1,0 +1,129 @@
+body {
+	margin: auto 0px;
+	background-color: #FDEDED;
+}
+
+.header {
+	width: 100%;
+	height: 70px;
+	background-color: #E8C0C8;
+	margin: auto;
+	vertical-align: middle;
+	position: relative;
+	background-image: url("/template/img/fon.jpg");
+}
+
+.site {
+	display: inline-block;
+	
+}
+
+.img_site {
+	display: inline-block;
+	position: absolute;
+}
+
+.img_site img {
+	height: 70px;
+	width: 110px;
+}
+
+html {
+	font-size: 20px;
+}
+
+.name_site {
+	font-size: 50px;
+	font-family: Parkavenue, cursive;
+	font-weight: 900;
+	display: inline-block;
+	margin-left: 300px;
+	position: absolute;
+}
+
+.content {
+	margin: auto;
+	width: 100%;
+	background-color: #F2D9DE;
+	min-height: 900px;
+}
+
+#news {
+	width: 800px;
+	margin: auto;
+	border: solid 1px;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+a div {
+	width: 500px;
+	margin: auto 20px;
+	margin-bottom: 20px;
+	background-color: #EFB8B9;
+	padding: 10px;
+}
+
+.img_1,
+.img_2,
+.img_3 {
+	display: inline-block;
+}
+
+img {
+	height: 200px;
+	width: 200px;
+}
+
+.little_img {
+	display: inline-block;
+}
+
+.img_1 img {
+	width: 197px;
+	height: 197px;
+	background-color: #111;
+}
+
+.update, 
+.delete {
+	background-color: #EFB8B9;
+	padding: 20px;
+}
+
+.footer {
+	margin: auto;
+	width: 100%;
+	height: 100px;
+	background-color: #E8C0C8;
+}
+
+a {
+	text-decoration: none;
+	color: #111;
+}
+
+@media(min-width: 1200px){
+	.content {
+		width: 1000px;
+	}
+
+
+}
+
+@media(max-width: 980px){
+	
+	.menu ul li.list_li {
+		height: 30px;
+		width: 150px;
+		background-color: #999;
+		padding-top: 10px;
+	}
+
+	.menu {
+		margin: auto;
+		width: 100%;
+		height: 39px;
+	}
+
+}
